@@ -1,0 +1,1083 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Inter:wght@500&family=Poppins:ital,wght@0,300;1,100;1,300&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: black;
+}
+header{
+    height: 70px;
+    width: 100%;
+    background-color:black;
+    color: white;
+    border-bottom: 2px solid ;
+    border-color:#2B2730 ;
+}
+.flex i{
+    color: #D9B26E;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    font-size: 1.4vw;
+    align-items: center;
+    text-transform: capitalize;
+    padding-top:0.40vw;
+}
+.flex1{
+    padding-left: 0.70vw;
+}
+.flex3{
+    padding-right: 0.70vw;
+}
+.flex1 i{
+    padding-right: 0.60vw;
+}
+.flex3 i{
+    padding-left:0.60vw ;
+}
+.flex2 i{
+    padding-right: 0.30vw;
+}
+.navbar{
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+color: whitesmoke;
+text-decoration: none;
+list-style-type: none;
+}
+a:hover{
+    border-bottom: 2px solid #D9B26E;
+}
+li{
+    list-style-type: none;
+}
+.booktable i{
+    color: #D9B26E;
+}
+nav li{
+    display: inline;
+    margin-right: 6vw;
+    font-size: 1.2vw;
+}
+.booktable button{
+    background-color: #D9B26E;
+    color: whitesmoke;
+    font-size: 1.4vw;
+    text-transform: capitalize;
+    padding: 0.50vw;
+}
+.booktable i{
+    font-size: 1.2vw;
+    margin-right: 0.69vw;
+}
+.page1{
+    height:80vh;
+    background: url(./image/pngtree-an-old-man-sitting-behind-the-counter-in-a-cafe-picture-image_2618800\ \(1\).jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.page_img1{
+    padding-top: 4vw;
+    padding-left: 2vw;
+}
+.page_img1 h1{
+    font-size: 8vw;
+    color: whitesmoke;
+    text-transform: capitalize;
+    text-shadow: 20px 20px 20px #D9B26E;
+    font-family: 'Courgette', cursive;
+    font-weight: lighter;
+}
+.page_img1 h3{
+    font-size: 4vw;
+    color: whitesmoke;
+    text-shadow: 20px 20px 20px #2B2730;
+    font-family: 'Caveat', cursive;
+}
+.page_img1 button{
+    font-size: 1.6vw;
+    text-transform: uppercase;
+    background-color: rgba(0,0,0,0.5);
+    color: aliceblue;
+    padding: 0.30vw;
+    margin-top: 1vw;
+    border-color: black;
+}
+.page_img1 button:hover{
+    background-color: #D9B26E;
+}
+.page2{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+.DIV i{
+    color: #D9B26E;
+}
+.page2_box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+    flex-wrap: wrap;
+    bottom: 11vw;
+    position: relative;
+
+}
+.page2_box1{
+    height: 300px;
+    width: 300px;
+    border:2px solid #D9B26E;
+    background-color:#040D12;
+    background-image: url(./image/CAPPUCCINO\ HEART\ ART.jfif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.page2_box2{
+    height: 300px;
+    width: 300px;
+    border:2px solid #D9B26E;
+    background-color:#040D12;
+    background-image: url(./image/Italian\ Style\ Hot\ Chocolate\ by\ the_little_almond\ _\ Quick\ &\ Easy\ Recipe\ \ _\ The\ Feedfeed.png);
+    background-size: cover;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+}
+.page2_box3{
+    height: 300px;
+    width: 300px;
+    border:2px solid #D9B26E;
+    background-color:#040D12;
+    background-image: url(./image/download\ \(15\).jfif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.box{
+    height: 300px;
+    width: 300px;
+    border:2px solid #D9B26E;
+    margin-top: 0.40vw;
+    margin-left: 0.40vw;
+    box-shadow: 2px 2px 2px #D9B26E;
+
+}
+.box2{
+    height: 300px;
+    width: 300px;
+    border:2px solid #D9B26E;
+    margin-top: 0.40vw;
+    margin-left: 0.40vw;
+    box-shadow: 2px 2px 2px #D9B26E;
+}
+.box3{
+    height: 300px;
+    width: 300px;
+    border:2px solid #D9B26E;
+    margin-top: 0.40vw;
+    margin-left: 0.40vw;
+    box-shadow: 2px 2px 2px #D9B26E;
+}
+.box p{
+    color: whitesmoke;
+    text-align: center;
+    background: rgba(230, 156, 90, 0.5);
+    text-transform: capitalize;
+}
+.box h4{
+    color: whitesmoke;
+    text-align: center;
+    background: rgba(230, 156, 90, 0.5);
+    text-transform: capitalize;
+}
+.bo2 p{
+    color: rgb(194, 144, 144);
+    text-align: center;
+}
+.bo2 h4{
+    color: whitesmoke;
+    text-align: center;
+}
+.bo3 p{
+    color: whitesmoke;
+    text-align: center;
+}
+.bo3 h4{
+    color: whitesmoke;
+    text-align: center;
+}
+
+.page3{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.dis_box1{
+    height: 400px;
+    width: 500px;
+    position: relative;
+    bottom: 8vw;
+    text-align: left;
+}
+.dis_box2{
+    height: 400px;
+    width: 500px;
+    position: relative;
+    bottom: 8vw;
+    background-image: url(./image/Your\ Coffee\ Guru.jfif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.display{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 1vw;
+    text-align: center;
+    text-transform: capitalize;
+}
+.dis_box2 h1{
+    font-size: 4vw;
+    color: whitesmoke;
+    font-family: 'Courgette', cursive;
+    font-weight: lighter;
+    padding-top: 4vw;
+}
+.dis_box2 h3{
+    color: whitesmoke;
+    font-size: 2vw;
+    font-weight: lighter;
+}
+.dis_box2 button{
+    background-color: white;
+    font-size: 1.2vw;
+    padding: 0.60vw;
+    color: black;
+    text-transform: uppercase;
+    border: whitesmoke;
+    margin-top: 0.50vw;
+}
+.dis_box2 button:hover{
+    background-color: #D9B26E;
+}
+.benefit p{
+    color: #D9B26E;
+    font-family: 'Courgette', cursive;
+    text-transform: capitalize;
+}
+.benefit h1{
+    color: whitesmoke;
+    text-transform: capitalize;
+    font-weight: lighter;
+    font-size: 1.8vw;
+}
+.i1 i{
+    color: #D9B26E;
+    position: relative;
+    top: 3vw;
+    font-size:1.3vw ;
+    background-color: #2B2730;
+    padding: 0.50vw;
+    border-radius: 50%;
+}
+.i1 h3{
+    color: whitesmoke;
+    padding-left: 3vw;
+}
+.i1 p{
+    color: whitesmoke;
+    padding-left: 3vw;
+    font-size: 0.90vw;
+}
+.i2 i{
+    color: #D9B26E;
+    position: relative;
+    top: 3vw;
+    font-size:1.3vw ;
+    background-color: #2B2730;
+    padding: 0.50vw;
+    border-radius: 50%;
+}
+.i2 h3{
+    color: whitesmoke;
+    padding-left: 3vw;
+}
+.i2 p{
+    color: whitesmoke;
+    padding-left: 3vw;
+    font-size: 0.90vw;
+}
+.i3 i{
+    color: #D9B26E;
+    position: relative;
+    top: 3vw;
+    font-size:1.3vw ;
+    background-color: #2B2730;
+    padding: 0.50vw;
+    border-radius: 50%;
+}
+.i3 h3{
+    color: whitesmoke;
+    padding-left: 3vw;
+}
+.i3 p{
+    color: whitesmoke;
+    padding-left: 3vw;
+    font-size: 0.90vw;
+}
+.page3{
+    height: 100vh;
+    width: 100%;
+}
+.logos{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.logo1{
+    background-image: url(./image/Brewed\ Black\ _\ Elegant\ Coffee\ Logo\ Design.jfif);
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    width: 150px;
+}
+.logo2{
+    background-image: url(./image/Coffee\ Shop\ Logo\ \(1\).jfif);
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    width: 150px;
+}
+.logo3{
+    background-image: url(./image/ผลงานออกแบบโลโก้\ QUATS\ \(1\).jfif);
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    width: 150px;
+}
+.logo4{
+    background-image: url(./image/download\ \(19\).jfif);
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    width: 150px;
+}
+.logo5{
+    background-image: url(./image/Mokoko\ Coffee\ Logo\ -\ Picture\ of\ Mokoko\ Coffee\,\ Southgate\,\ Bath\ -\ Tripadvisor.jfif);
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    width: 150px;
+}
+.pictures{
+    margin-top: 2vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+.pic1{
+    height: 350px;
+    width: 20%;
+    background-image:url(./image/coffeenuts\ \(1\).png);
+    background-size: cover;
+    background-position: center;
+}
+.pic2{
+    height: 350px;
+    width: 20%;
+    background-image: url(./image/Coffeetography\ –\ Photographing\ Coffee\ for\ Instagram.jfif);
+    background-size: cover;
+    background-position: center;
+}
+.pic3{
+    height: 350px;
+    width: 20%;
+    background-image: url(./image/9d65926a2961a6790e2068cc6427eac3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.pic4{
+    height: 350px;
+    width: 20%;
+    background-image: url(./image/download\ \(14\).jfif);
+    background-size: cover;
+    background-position: center;
+}
+.pic5{
+    height: 350px;
+    width: 20%;
+    background-image: url(./image/Coffee\ aesthetic\ Design!\ \(1\).jfif);
+    background-size: cover;
+    background-position: center;
+}.weekend{
+    height: 173px;
+    width: 100%;
+    background-image: url(./image/Coffee\ Beverage\ Caffeine\ -\ Free\ photo\ on\ Pixabay.jfif);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.wek1{
+    text-transform: capitalize;
+    color: whitesmoke;
+}
+.wek1 h1{
+    font-weight: lighter;
+    font-size: 2.4vw;
+}
+.wek2 button{
+    text-transform: uppercase;
+    background-color: whitesmoke;
+    color: black;
+    font-size: 1.5vw;
+    padding: 0.70vw;
+    border-color: whitesmoke;
+}
+.wek2 button:hover{
+    background-color:#D9B26E;
+}
+.wek1 span{
+    color: #D9B26E;
+}
+.page4{
+    height: 100vh;
+    width: 100%;
+}
+.menu{
+    text-align: center;
+}
+.align1{
+    height: 500px;
+    width: 500px;
+    background-image: url(./image/Handmade\ chocolates\ by\ Wander\ \(1\).jfif);
+    background-size: cover;
+}
+.align2{
+    height: 500px;
+    width: 500px;
+    background-image: url(./image/Coffee\ Black\ Minimalist\ Background\ Wallpaper\ Image\ For\ Free\ Download\ -\ Pngtree.jfif);
+    background-size: cover;
+    background-position: center;
+}
+.align{
+    display: flex;
+    justify-content:center;
+    margin-top: 2vw;
+    gap: 2vw;
+}
+.flavours{
+    color: whitesmoke;
+    padding-left: 2vw;
+    text-transform: uppercase;
+}
+.flavours h5{
+    font-family: 'Courgette',cursive;
+    font-size: 1.4vw;
+    line-height: 2vw;
+}
+.flavours p{
+    font-size: 1vw;
+    line-height: 2vw;
+}
+.page5{
+    height: 100vh;
+    width: 100%;
+}
+.social p{
+    color: #D9B26E;
+    font-size: 3vw;
+    font-weight: lighter;
+}
+.social span{
+    color: whitesmoke;
+    font-family: 'Courgette',cursive;
+}
+.ids{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.page5_img{
+    margin-top: 3vw;
+    height: 450px;
+    width: 100%;
+    background-image: url(./image/Coffee\ Fresh\ Brown\ Poster\ Banner\ Background\,\ Coffee\,\ Food\,\ Drink\ Background\ Image\ And\ Wallpaper\ for\ Free\ Download.jfif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.page5_img p{
+    color: whitesmoke;
+    font-weight: lighter;
+    font-size: 2vw;
+    word-spacing:0.50vw;
+    padding-top: 1vw;
+    padding-left: 15vw;
+    font-family: 'Courgette',cursive;
+}
+.quoted{
+    color: #D9B26E;
+    font-size: 5vw;
+    padding-left: 45vw;
+}
+.blog{
+    text-align: center;
+    padding-top: 2vw;
+}
+.blog p{
+    color: #D9B26E;
+    font-family: 'Courgette',cursive;
+}
+.blog h2{
+    color: whitesmoke;
+}
+.page6{
+    height: 100vh;
+    width: 100%;
+}
+.page6 p{
+    color: whitesmoke;
+}
+.page6_images{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 0.50vw;
+    flex-wrap: wrap;
+}
+.page6_img1{
+    height: 400px;
+    width: 350px;
+    background-image: url(./image/How\ to\ find\ your\ style\ as\ a\ food\ photographer.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom-right-radius: 50%;
+    background-position: center;
+}
+.page6_img2{
+    height: 400px;
+    width: 350px;
+    background-image: url(./image/Coffee\ Art\ Photos\,\ Download\ The\ BEST\ Free\ Coffee\ Art\ Stock\ Photos\ &\ HD\ Images.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom-right-radius: 50%;
+}
+.page6_img3{
+    height: 400px;
+    width: 350px;
+    background-image: url(./image/Costa\ Rica\ Tiramisu\ Martini.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom-right-radius: 50%;
+}
+.page6_img1 p{
+    background: rgba(126, 68, 17, 0.5);
+    text-align: center;
+    color: #D9B26E;
+    font-family: 'Courgette',cursive;
+    text-transform: capitalize;
+}
+.page6_img1 h3{
+    text-align: center;
+    color: whitesmoke;
+    font-weight: lighter;
+    background: rgba(126, 68, 17, 0.5);
+    text-transform: capitalize;
+}
+.page6_img2 p{
+    background: rgba(126, 68, 17, 0.5);
+    text-align: center;
+    color: #D9B26E;
+    font-family: 'Courgette',cursive;
+    text-transform: capitalize;
+}
+.page6_img2 h3{
+    text-align: center;
+    color: whitesmoke;
+    font-weight: lighter;
+    text-transform: capitalize;
+    background: rgba(126, 68, 17, 0.5);
+}
+.page6_img3 p{
+    background: rgba(126, 68, 17, 0.5);
+    text-align: center;
+    color: #D9B26E;
+    font-family: 'Courgette',cursive;
+    text-transform: capitalize;
+}
+.page6_img3 h3{
+    background: rgba(126, 68, 17, 0.5);
+    text-align: center;
+    color: whitesmoke;
+    font-weight: lighter;
+    text-transform: capitalize;
+}
+.pag{
+    display: flex;
+    justify-content: center;
+    padding-top: 4vw;
+    
+}
+.pag1{
+    color: #D9B26E;
+    background-color:rgba(126, 68, 17, 0.5);
+    height: 20px;
+    width:30px;
+    text-align: center;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+.pag2{
+    color: #D9B26E;
+    background-color:rgba(126, 68, 17, 0.5);
+    height: 20px;
+    width:30px;
+    text-align: center;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+.pag3{
+    color: #D9B26E;
+    background-color:rgba(126, 68, 17, 0.5);
+    height: 20px;
+    width:30px;
+    text-align: center;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+.pag1:hover{
+    border-bottom: 2px solid #D9B26E;
+    
+}
+.pag2:hover{
+    border-bottom: 2px solid #D9B26E;
+}
+.pag3:hover{
+    border-bottom: 2px solid #D9B26E;
+}
+.footer_images{
+    display: flex;
+    margin-top: 2vw;
+    flex-wrap: wrap;
+}
+.foot_image1{
+    background: url(./image/download\ \(11\).jfif);
+    height: 400px;
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+.foot_image2{
+    background: url(./image/download\ \(23\).jfif);
+    height: 400px;
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    line-height: 3vw;
+}
+.foot_image1 h1{
+    color: whitesmoke;
+    font-size: 5vw;
+    font-weight: lighter;
+    font-family: 'Courgette',cursive;
+    text-transform: capitalize;
+    padding-top: 5vw;
+}
+.foot_image1 p{
+    color: whitesmoke;
+    text-transform: capitalize;
+    font-size: 2vw;
+}
+.foot_image1 button{
+    font-size: 1.4vw;
+    text-transform: uppercase;
+    padding: 0.50vw;
+    margin-top: 1vw;
+}
+.foot_image1 button:hover{
+    background-color: #D9B26E;
+}
+.foot_image2 h1{
+    color: whitesmoke;
+    font-size: 5vw;
+    font-weight: lighter;
+    font-family: 'Courgette',cursive;
+    text-transform: capitalize;
+    padding-top: 7vw;
+}
+.foot_image2 p{
+    color: whitesmoke;
+    text-transform: capitalize;
+    font-size: 2vw;
+    margin-top: 1vw;
+}
+.foot_image2 button{
+    font-size: 1.4vw;
+    text-transform: uppercase;
+    padding: 0.50vw;
+    margin-top: 1vw;
+}
+.foot_image2 button:hover{
+    background-color: #D9B26E;
+}
+.media{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    color: whitesmoke;
+    align-items: center;
+}
+.media i{
+    color: #D9B26E;
+}
+.media h1{
+    color: whitesmoke;
+}
+.media p{
+    color: whitesmoke;
+}
+.media2 i{
+    font-size: 1.5vw;
+}
+.media2{
+    line-height: 2vw;
+}
+.media1 i{
+    position: relative;
+    right: 2vw;
+    top: 1.6vw;
+    font-size: 1.4vw;
+}
+.media2 i{
+    color:rgba(230, 156, 90, 0.5);
+    background-color: #2B2730;
+    padding: 0.60vw;
+    border-radius: 50%;
+}
+.media1 i{
+    color: rgba(236, 160, 93, 0.5);
+    font-size: 1.4vw;
+}
+@media screen and (max-width:600px) {
+    .flex{
+        font-size: 2.8vw;
+        padding-top: 3vw;
+    }
+    .page_img1{
+        padding-top:10vw;
+        padding-left: 1.5vw;
+    }
+    .page_img1 h1{
+        font-size: 12vw;
+    }
+    .page_img1 h3{
+        font-size: 8vw;
+    }
+    .page_img1 button{
+        font-size: 4vw;
+        text-transform: uppercase;
+        background-color: rgba(0,0,0,0.5);
+        color: aliceblue;
+        padding: 0.30vw;
+        margin-top: 3vw;
+    }
+    .page2_box{
+        display: block;
+        width: 100%;
+    }
+    .page2{
+        width: 100%;
+    }
+    .box{
+        width: 100%;
+    }
+    .box2{
+        width: 100%;
+    }
+    .box3{
+        width: 100%;
+    }
+    .dis_box1{
+        width: 100%;
+    }
+    .dis_box2{
+        width: 100%;
+    }
+    .pictures{
+        display: block;
+    }
+    .pic1{
+        width: 100%;
+    }
+    .pic2{
+        width: 100%;
+    }
+    .pic3{
+        width: 100%;
+    }
+    .pic4{
+        width: 100%;
+    }
+    .pic5{
+        width: 100%;
+    }
+    .weekend{
+        flex-wrap: wrap;
+    }
+    .page4{
+        width: 100%;
+    }
+    .container{
+        width: 100%;
+        display: block;
+        position: relative;
+        top: 50vw;
+    }
+    .cont1{
+        width: 100%;
+    }
+    .dis_box1 h1{
+        font-size: 3vw;
+        padding-left: 2vw;
+    }
+    .dis_box1{
+        padding-left:3vw ;
+        line-height: 8vw;
+    }
+    .i1 p{
+        font-size: 3vw;
+        padding-left: 2vw;
+    }
+    .i2 p{
+        font-size: 3vw;
+        padding-left: 2vw;
+    }
+    .i3 p{
+        font-size: 3vw;
+        padding-left: 2vw;
+    }
+    .i1 i{
+        font-size: 5vw;
+    }
+    .i2 i{
+        font-size: 5vw;
+    }
+    .i3 i{
+        font-size: 5vw;
+    }
+    .i1 h3{
+        padding-left: 7vw;
+    }
+    .i2 h3{
+        padding-left: 7vw;
+    }
+    .i3 h3{
+        padding-left: 7vw;
+    }
+    .dis_box2 h1{
+        font-size: 14vw;
+    }
+    .dis_box2 h3{
+        font-size: 8vw;
+    }
+    .dis_box2{
+        padding-top: 4vw;
+    }
+    .dis_box2 button{
+        background-color: white;
+        font-size: 4vw;
+        padding: 3vw;
+        color: black;
+        text-transform: uppercase;
+        border: whitesmoke;
+        margin-top: 2vw;
+    }
+    .weekend{
+        color: whitesmoke;
+        width: 100%;
+    }
+    .wek1 h1{
+        font-size: 6vw;
+        text-align: center;
+        color: whitesmoke;
+    }
+    .wek1 p{
+        font-size: 4vw;
+        text-align: center;
+
+    }
+    .wek2 button{
+        font-size: 4vw;
+    }
+    .page4{
+        height: auto;
+    }
+    .menu p{
+        font-size: 7vw;
+        color:#D9B26E;
+        font-family: 'Courgette',cursive;
+    }
+    .menu h1{
+        font-size: 9vw;
+        color: whitesmoke;
+        font-weight: lighter;
+    }
+    .flavours{
+        padding-top: 6vw;
+    }
+    .flavours h5{
+        font-size: 6vw;
+        line-height: 8vw;
+    }
+    .flavours p{
+        font-size: 4vw;
+        line-height: 6vw;
+    }
+    .ids p{
+        font-size: 10vw;
+    }
+    .ids{
+        flex-wrap: wrap;
+        margin-top: 5vw;
+    }
+    .align{
+        display: block;
+    }
+    .align1{
+        width: 100%;
+    }
+    .align2{
+        width: 100%;
+    }
+    .page5{
+        margin-top: 10vw;
+    }
+    .page6_images{
+        display: block;
+    }
+    .page6_img1{
+        width: 100%;
+    }
+    .page6_img2{
+        width: 100%;
+    }
+    .page6_img3{
+        width: 100%;
+    }
+    .quoted{
+        font-size: 10vw;
+    }
+    .page5_img p{
+        font-size: 6vw;
+    }
+    .page6_img1 p{
+        text-align: center;
+    }
+    .page6_img1 h3{
+        text-align: center;
+    }
+    .footer_images{
+        display: block;
+    }
+    .foot_image1{
+        width: 100%;
+    }
+    .foot_image2{
+        width: 100%;
+    }
+    .media{
+        flex-wrap: wrap;
+    }
+    .media1 i{
+        position: relative;
+        right: 40vw;
+        font-size: 6vw;
+    }
+    .media1 p{
+        position: relative;
+        bottom: 6vw;
+    }
+    .media2 i{
+        font-size: 6vw;
+    }
+    .media2 p{
+        font-size: 4vw;
+        line-height: 7vw;
+    }
+    .media3{
+        position: relative;
+        right: 5vw;
+    }
+    .media{
+        text-align: center;
+    }
+    .foot_image1 h1{
+        font-size: 10vw;
+    }
+    .foot_image2 h1{
+        font-size: 10vw;
+    }
+    .foot_image1 p{
+        font-size: 8vw;
+    }
+    .foot_image2{
+        line-height: 7vw;
+    }
+    .foot_image2 p{
+        font-size: 8vw;
+        padding-top: 5vw;
+    }
+    .foot_image1 button{
+        font-size: 4vw;
+        text-transform: uppercase;
+        padding: 0.50vw;
+        margin-top: 1vw;
+    }
+    .foot_image2 button{
+        font-size: 4vw;
+        text-transform: uppercase;
+        padding: 0.50vw;
+        margin-top: 1vw;
+        margin-top: 4vw;
+    }
+    nav li a{
+        display: none;
+    }
+    .navbar button{
+        display: none;
+    }
+    .navbar i{
+        display: none;
+    }
+    .navbar{
+        display: none;
+    }
+    .flex{
+        padding-top: 7vw;
+    }
+}
